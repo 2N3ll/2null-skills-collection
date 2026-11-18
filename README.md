@@ -14,6 +14,15 @@ A unified frontend design and engineering skill combining:
 
 The skill is framework-aware: React Bits is used only in React projects (or React islands), while the design and appropriate motion guidance can be applied to other frontend stacks.
 
+### [Discord Platform Engineer](./skills/discord-platform-engineer/SKILL.md)
+
+A production-focused Discord engineering skill covering:
+- **Commands & interactions** — slash commands, context menus, autocomplete, buttons, select menus, and modals.
+- **Components V2** — modern message layouts, component architecture, and rendering validation.
+- **Security & permissions** — OAuth2, Gateway intents, least privilege, role hierarchy, and server-side authorization.
+- **Production operations** — persistence, rate limits, queues, deployment, monitoring, and scaling.
+- **Testing** — unit, integration, concurrency, and test-guild validation.
+
 ## Install
 
 Using the Skills CLI:
