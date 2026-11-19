@@ -39,6 +39,18 @@ A defensive application security review skill covering missing route protection,
 
 A DeepScan-inspired static analysis skill covering correctness bugs, unused declarations and dependencies, dead code, duplication, complexity, and behavior-preserving refactoring recommendations across languages.
 
+### [Ultimate Testing](./skills/ultimate-testing/SKILL.md)
+
+A framework-aware testing skill covering unit, integration, contract, component and end-to-end tests, regression prevention, deterministic fixtures, flaky-test diagnosis and CI verification.
+
+### [Bug Investigator](./skills/bug-investigator/SKILL.md)
+
+An evidence-driven debugging skill covering root-cause analysis, log interpretation, hypothesis testing, minimal durable fixes and regression verification.
+
+### [Production Readiness](./skills/production-readiness/SKILL.md)
+
+A release-review skill coordinating the collection's specialist skills to assess functionality, security, code quality, usability, reliability, deployment and recovery through evidence-based go/no-go gates.
+
 ## Install
 
 Using the Skills CLI:
@@ -50,6 +62,9 @@ npx skills add 35ni/35ni-skills --skill ultimate-backend
 npx skills add 35ni/35ni-skills --skill ui-ux-auditor
 npx skills add 35ni/35ni-skills --skill security-auditor
 npx skills add 35ni/35ni-skills --skill code-quality-auditor
+npx skills add 35ni/35ni-skills --skill ultimate-testing
+npx skills add 35ni/35ni-skills --skill bug-investigator
+npx skills add 35ni/35ni-skills --skill production-readiness
 ```
 
 For details about the Skills ecosystem and supported agents, see https://skills.sh/.
@@ -72,7 +87,16 @@ skills/
 ├── security-auditor/
 │   ├── SKILL.md
 │   └── references/
-└── code-quality-auditor/
+├── code-quality-auditor/
+│   ├── SKILL.md
+│   └── references/
+├── ultimate-testing/
+│   ├── SKILL.md
+│   └── references/
+├── bug-investigator/
+│   ├── SKILL.md
+│   └── references/
+└── production-readiness/
     ├── SKILL.md
     └── references/
 ```
