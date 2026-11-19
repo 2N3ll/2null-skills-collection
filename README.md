@@ -31,6 +31,10 @@ A framework-aware backend engineering skill covering API contracts, business log
 
 An evidence-driven interface review skill covering visual hierarchy, usability, responsive layouts, accessibility, interaction states, task completion, and prioritized improvements with acceptance criteria.
 
+### [Security Auditor](./skills/security-auditor/SKILL.md)
+
+A defensive application security review skill covering missing route protection, authentication, authorization, tenant isolation, insecure configuration, dependencies, secrets, and prioritized vulnerability remediation with defensive regression checks.
+
 ## Install
 
 Using the Skills CLI:
@@ -40,6 +44,7 @@ npx skills add 35ni/35ni-skills --skill ultimate-frontend
 npx skills add 35ni/35ni-skills --skill discord-platform-engineer
 npx skills add 35ni/35ni-skills --skill ultimate-backend
 npx skills add 35ni/35ni-skills --skill ui-ux-auditor
+npx skills add 35ni/35ni-skills --skill security-auditor
 ```
 
 For details about the Skills ecosystem and supported agents, see https://skills.sh/.
@@ -56,7 +61,10 @@ skills/
 ├── ultimate-backend/
 │   ├── SKILL.md
 │   └── references/
-└── ui-ux-auditor/
+├── ui-ux-auditor/
+│   ├── SKILL.md
+│   └── references/
+└── security-auditor/
     ├── SKILL.md
     └── references/
 ```
