@@ -35,6 +35,10 @@ An evidence-driven interface review skill covering visual hierarchy, usability, 
 
 A defensive application security review skill covering missing route protection, authentication, authorization, tenant isolation, insecure configuration, dependencies, secrets, and prioritized vulnerability remediation with defensive regression checks.
 
+### [Code Quality Auditor](./skills/code-quality-auditor/SKILL.md)
+
+A DeepScan-inspired static analysis skill covering correctness bugs, unused declarations and dependencies, dead code, duplication, complexity, and behavior-preserving refactoring recommendations across languages.
+
 ## Install
 
 Using the Skills CLI:
@@ -45,6 +49,7 @@ npx skills add 35ni/35ni-skills --skill discord-platform-engineer
 npx skills add 35ni/35ni-skills --skill ultimate-backend
 npx skills add 35ni/35ni-skills --skill ui-ux-auditor
 npx skills add 35ni/35ni-skills --skill security-auditor
+npx skills add 35ni/35ni-skills --skill code-quality-auditor
 ```
 
 For details about the Skills ecosystem and supported agents, see https://skills.sh/.
@@ -64,7 +69,10 @@ skills/
 ├── ui-ux-auditor/
 │   ├── SKILL.md
 │   └── references/
-└── security-auditor/
+├── security-auditor/
+│   ├── SKILL.md
+│   └── references/
+└── code-quality-auditor/
     ├── SKILL.md
     └── references/
 ```
