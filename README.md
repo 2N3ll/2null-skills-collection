@@ -1,4 +1,4 @@
-# 2null Skills Collection
+# 35ni Skills Collection
 
 A collection of reusable skills for AI coding agents.
 
@@ -23,12 +23,23 @@ A production-focused Discord engineering skill covering:
 - **Production operations** — persistence, rate limits, queues, deployment, monitoring, and scaling.
 - **Testing** — unit, integration, concurrency, and test-guild validation.
 
+### [Ultimate Backend](./skills/ultimate-backend/SKILL.md)
+
+A framework-aware backend engineering skill covering API contracts, business logic, databases, migrations, authentication, authorization, webhooks, background jobs, caching, real-time integrations, reliability, and deployment.
+
+### [UI/UX Auditor](./skills/ui-ux-auditor/SKILL.md)
+
+An evidence-driven interface review skill covering visual hierarchy, usability, responsive layouts, accessibility, interaction states, task completion, and prioritized improvements with acceptance criteria.
+
 ## Install
 
 Using the Skills CLI:
 
 ```bash
-npx skills add 2N3ll/2null-skills-collection --skill ultimate-frontend
+npx skills add 35ni/35ni-skills --skill ultimate-frontend
+npx skills add 35ni/35ni-skills --skill discord-platform-engineer
+npx skills add 35ni/35ni-skills --skill ultimate-backend
+npx skills add 35ni/35ni-skills --skill ui-ux-auditor
 ```
 
 For details about the Skills ecosystem and supported agents, see https://skills.sh/.
@@ -37,14 +48,17 @@ For details about the Skills ecosystem and supported agents, see https://skills.
 
 ```text
 skills/
-└── ultimate-frontend/
+├── ultimate-frontend/
+│   ├── SKILL.md
+│   └── references/
+├── discord-platform-engineer/
+│   └── SKILL.md
+├── ultimate-backend/
+│   ├── SKILL.md
+│   └── references/
+└── ui-ux-auditor/
     ├── SKILL.md
     └── references/
-        ├── accessibility-performance.md
-        ├── design-system.md
-        ├── gsap-and-scrolltrigger.md
-        ├── lenis-integration.md
-        └── react-bits.md
 ```
 
 ## Principles
